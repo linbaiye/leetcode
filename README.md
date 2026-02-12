@@ -1,6 +1,6 @@
 # leetcode
 
-This repository contains all solved problems, only med+  problems are addressed briefly how they are done.
+This repository contains all solved problems, only med+ problems are addressed briefly how they are done. Readability is not considered when coding.
 
 * LRUCache https://leetcode.com/problems/lru-cache/ </br>
   Inorder to meet with O(1) time complexity, a double linked list and a node array are used. Demonstrated as below.
@@ -18,7 +18,9 @@ This repository contains all solved problems, only med+  problems are addressed 
   by key. Not only the list operation but the node finding are with O(1), hence O(1) satisfies.
   
 * Word Search https://leetcode.com/problems/word-search/description/ </br>
-  Iterate all board characters, whenever a character equals to the word's first character, do a BFS.  
+  Iterate all board characters, when a character is found equal to the word's first character, do a BFS.
 
+* Count vowel strings in ranges https://leetcode.com/problems/count-vowel-strings-in-ranges/description/ </br>
+  Iterate through the string array with an index i, and use a counter array to sum up the number of vowel string at the index. 
 
 
