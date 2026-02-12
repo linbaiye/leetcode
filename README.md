@@ -13,8 +13,8 @@ This repository contains all solved problems, only med+ problems are addressed b
   }
   Node[] nodes = new Node[10001];
   ```
-  The key idea is to maintain the list properly. When a put(int key, int value) occurs, the node with the key will be added,</br>
-  or moved if existed, to the list tail. When a get(int key) operation comes, node[key] enables us to find the node quickly, </br>
+  The key idea is to maintain the list properly. When a put(int key, int value) occurs, the node with the key will be added,
+  or moved if existed, to the list tail. When a get(int key) operation comes, node[key] enables us to find the node quickly,
   we then move the found node to the list tail. Not only the list operation but the node finding are with O(1), hence O(1) satisfies.
   
 * Word Search https://leetcode.com/problems/word-search/description/ </br>
