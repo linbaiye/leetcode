@@ -13,9 +13,9 @@ This repository contains all solved problems, only med+ problems are addressed b
   }
   Node[] nodes = new Node[10001];
   ```
-  The key idea is to maintain the list properly. Whenever a key is accessed, the node with the key will be added,</br>
-  or moved if existed, to the list tail. And node[key] enables us to find then node when a value is queried </br>
-  by key. Not only the list operation but the node finding are with O(1), hence O(1) satisfies.
+  The key idea is to maintain the list properly. When a put(int key, int value) occurs, the node with the key will be added,</br>
+  or moved if existed, to the list tail. When a get(int key) operation comes, node[key] enables us to find the node quickly, </br>
+  we then move the found node to the list tail. Not only the list operation but the node finding are with O(1), hence O(1) satisfies.
   
 * Word Search https://leetcode.com/problems/word-search/description/ </br>
   Iterate all board characters, when a character is found equal to the word's first character, do a BFS.
@@ -26,3 +26,5 @@ This repository contains all solved problems, only med+ problems are addressed b
 * Zigzag Conversion https://leetcode.com/problems/zigzag-conversion/description/ </br>
   It's all about array loop control, not too complex.
 
+* Peeking Iterator https://leetcode.com/problems/peeking-iterator/description/ </br>
+  Much more of a design problem.
