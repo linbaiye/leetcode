@@ -2,7 +2,7 @@
 
 This repository contains all solved problems, only med+  problems are addressed briefly how they are done.
 
-* LRUCache
+* LRUCache https://leetcode.com/problems/lru-cache/ </br>
   Inorder to meet with O(1) time complexity, a double linked list and a node array are used. Demonstrated as below.
   ```Java
   class Node {
@@ -17,7 +17,8 @@ This repository contains all solved problems, only med+  problems are addressed 
   or moved if existed, to the list tail. And node[key] enables us to find then node when a value is queried </br>
   by key. Not only the list operation but the node finding are with O(1), hence O(1) satisfies.
   
-
+* Word Search https://leetcode.com/problems/word-search/description/ </br>
+  Iterate all board characters, whenever a character equals to the word's first character, do a BFS.  
 
 
 
