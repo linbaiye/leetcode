@@ -23,4 +23,6 @@ This repository contains all solved problems, only med+ problems are addressed b
 * Count vowel strings in ranges https://leetcode.com/problems/count-vowel-strings-in-ranges/description/ </br>
   Iterate through the string array with an index i, and use a counter array to sum up the number of vowel string at the index. 
 
+* Zigzag Conversion https://leetcode.com/problems/zigzag-conversion/description/ </br>
+  It's all about array loop control, not too complex.
 
